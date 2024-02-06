@@ -1,0 +1,361 @@
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+}
+#home {
+    background-image: url(/images/bg\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ul {
+    display: flex;
+    gap: 40px;
+}
+li {
+    list-style-type: none;    
+}
+.button {
+    padding: 15px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: black;
+}
+.lists a {
+    text-decoration: none;
+    color: black;
+}
+.lists a:hover {
+    color: purple;
+}
+.tab {
+    width: 400px;
+    margin: 40px;
+    padding: 40px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.place {
+    display: flex;
+    border: 2px purple solid;
+    border-radius: 5px;
+    height: 70px;
+}
+.place h3{
+    display: flex;
+    justify-content: center;
+}
+.text1 {
+    margin-top: -15px;
+    opacity: .7;
+    margin-left: -10px;
+}
+select {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 45px;
+    border: none;
+    margin-top: -50px;
+    background-color: whitesmoke;
+}
+.image1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    opacity: .8;
+}
+.subscribe button{
+    text-align: center;
+    background-color: purple;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#clients {
+    padding: 90px;
+}
+#clients h3 {
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+}
+#clients p {
+    text-align: center;
+    font-size: 50px;
+}
+.sponsor {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fcontent {
+    display: flex;
+    gap: 60px;
+    width: 500px;
+}
+#feature {
+    width: 500px;
+    padding: 20px;
+    display: flex;
+}
+.fhead h1 {
+    font-size: 40px;
+    opacity: .7;
+}
+.side2 img {
+    margin-left: 50px;
+    position: relative;
+}
+.pause {
+    display: flex;
+    position: absolute;
+    border: 2px solid whitesmoke;
+    background-color: rgb(159, 73, 159);
+    width: 300px;
+    height: 80px;
+    margin-top: -350px;
+    border-radius: 5px;
+}
+.pause img {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.co-work {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: white;
+}
+.broadway {
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: -10px;
+    color: white;
+}
+.space h3{
+    text-align: center;
+    color: purple;
+}
+.space h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.573);
+}
+.galleries {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.pic1 {
+    position: relative;
+}
+.pic1 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic1 > img {
+    transition: .8s;
+}
+.pic1 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.pic2 {
+    position: relative;
+}
+.pic2 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic2 > img {
+    transition: .8s;
+}
+.pic2 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.pic3 {
+    position: relative;
+}
+.pic3 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic3 > img {
+    transition: .8s;
+}
+.pic3 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.pic4 {
+    position: relative;
+    margin-top: -120px;
+}
+.pic4 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic4 > img {
+    transition: .8s;
+}
+.pic4 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.pic5 {
+    position: relative;
+    margin-top: -45px;
+}
+.pic5 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic5 > img {
+    transition: .8s;
+}
+.pic5 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.pic6 {
+    position: relative;
+    margin-top: -120px;
+}
+.pic6 h4 {
+    position: absolute;
+    margin-top: -50px;
+    color: white;
+    margin-left: 40px;
+}
+.pic6 > img {
+    transition: .8s;
+}
+.pic6 > img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.explore {
+    width: 1000px;
+    margin-left: 30px;
+    border: 2px black solid;
+    text-align: center;
+    background-color: aliceblue;
+}
+.explore:hover {
+    background-color: rgb(173, 62, 173);
+    color: white;
+}
+.ptext1 {
+    text-align: center;
+}
+#pricing {
+    background-color: black;
+    color: white;
+}
+.plan {
+    display: flex;
+    justify-content: center;
+    margin-left: 375px;
+    width: 25%;
+    gap: 25px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.plan button {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.plan button:hover {
+    background-color: white;
+    color: black;
+}
+table {
+    border: 2px white solid;
+    width: 700px;
+    margin-left: 180px;
+    gap: 40px;
+}
+.radius {
+    padding: 50px;
+    gap: 30px;
+    display: flex;
+}
+.roundtext p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.597);
+}
+.roundtext h1 {
+    opacity: .8;
+}
+.roundtext > .learn {
+    color: purple;
+}
+.blogtext1, .blogtext2 {
+    text-align: center;
+}
+.blogtext1 {
+    color: purple;
+}
+.blogbox {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+.footer h1, p {
+    text-align: center;
+}
+.input input {
+    padding: 20px;
+    width: 300px;
+    margin-left: 275px; 
+    background-color: navy;
+    color: white;  
+    border-radius: 5px; 
+}
+.input {
+    display: flex;
+    gap: 10px;
+}
+.input button {
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+.footer {
+    background-color: rgb(17, 17, 103);
+    color: white;
+    padding: 40px;
+}
+.last {   
+   display: flex;
+   justify-content: space-between;    
+}
+.last ul {
+    gap: 15px;
+}
+
+
